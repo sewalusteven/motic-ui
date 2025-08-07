@@ -69,7 +69,7 @@
       </div>
 
       <div class="border-t border-gray-800 pt-6 text-center text-gray-400 text-sm">
-        <p>&copy; 2023 Ministry of Trade, Industry & Cooperatives. All rights reserved.</p>
+        <p>&copy; 2025 Ministry of Trade, Industry & Cooperatives. All rights reserved.</p>
         <p class="mt-2">
           <span class="hover:text-white cursor-pointer">Privacy Policy</span> |
           <span class="hover:text-white cursor-pointer">Terms of Service</span> |

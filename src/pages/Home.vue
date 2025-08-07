@@ -19,9 +19,9 @@
                         <router-link :to="{ name: 'business-registration' }" class="bg-white text-uganda-red hover:bg-gray-100 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">
                             <i class="fa-solid fa-building-user mr-2"></i>MSME Registration
                         </router-link>
-            <span class="bg-uganda-yellow text-black hover:bg-yellow-400 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">
+            <router-link :to="{name: 'permits'}" class="bg-uganda-yellow text-black hover:bg-yellow-400 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">
                             <i class="fa-solid fa-id-card mr-2"></i>Permits & Licenses
-                        </span>
+                        </router-link>
           </div>
         </div>
       </div>

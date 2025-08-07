@@ -29,7 +29,7 @@ const router = useRouter()
                     <i class="fa-solid fa-circle-question mr-1"></i>
                     Help
                 </span>
-        <span class="bg-uganda-red hover:bg-red-700 text-white px-4 py-2 rounded-md transition duration-300 cursor-pointer">
+        <span @click="router.push({ name: 'login' })" class="bg-uganda-red hover:bg-red-700 text-white px-4 py-2 rounded-md transition duration-300 cursor-pointer">
                     Login
                 </span>
 <!--        <button class="md:hidden text-gray-700">-->
