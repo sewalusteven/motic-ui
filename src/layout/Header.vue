@@ -17,12 +17,12 @@ const router = useRouter()
                 </span>
       </div>
 
-<!--      <nav class="hidden md:flex space-x-8">-->
-<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">About</span>-->
-<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">Services</span>-->
-<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">How It Works</span>-->
+      <nav class="hidden md:flex space-x-8">
+<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">BDSPs</span>-->
+<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">Market Place</span>-->
+<!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">Cooperatives</span>-->
 <!--        <span class="text-gray-700 hover:text-uganda-red font-medium cursor-pointer">Contact</span>-->
-<!--      </nav>-->
+      </nav>
 
       <div class="flex items-center space-x-4">
                 <span class="hidden md:inline-block text-gray-700 hover:text-uganda-red cursor-pointer">
