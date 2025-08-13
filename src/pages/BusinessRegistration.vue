@@ -13,6 +13,11 @@
 
         <div class="bg-light-gray p-6 rounded-lg mb-8">
           <h2 class="text-xl font-semibold mb-4">Business Information</h2>
+          <div class="w-full bg-green-50 p-4 rounded-lg border mb-3 border-green-600 text-green-600  flex flex-col">
+            <span class="font-bold">Success</span>
+            <span class="text-sm">Your account has been successfuly created. we have sent a verification link to your email josep**@gmail.com </span>
+          </div>
+
           <p class="text-gray-600 mb-4">
             Please provide your business details below. This information will be used to verify your business and provide you with the appropriate services.
           </p>

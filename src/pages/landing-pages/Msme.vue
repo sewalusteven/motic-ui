@@ -21,9 +21,9 @@ const router = useRouter()
                         <span @click="router.push({name: 'business-registration'})" class="bg-white text-uganda-red hover:bg-gray-100 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">
                             <i class="fa-solid fa-user-plus mr-2"></i>Register MSME
                         </span>
-            <span @click="router.push({name: 'registry'})" class="bg-uganda-yellow text-black hover:bg-yellow-400 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">
-                            <i class="fa-solid fa-magnifying-glass mr-2"></i>Find MSMEs
-                        </span>
+<!--            <span @click="router.push({name: 'registry'})" class="bg-uganda-yellow text-black hover:bg-yellow-400 font-medium px-6 py-3 rounded-md text-center transition duration-300 cursor-pointer">-->
+<!--                            <i class="fa-solid fa-magnifying-glass mr-2"></i>Find MSMEs-->
+<!--                        </span>-->
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ const router = useRouter()
         </p>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div id="msme-registration" class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-uganda-red relative overflow-hidden group">
           <div class="absolute top-0 right-0 w-32 h-32 bg-uganda-red/10 rounded-bl-full -mr-16 -mt-16 transition-all duration-300 group-hover:bg-uganda-red/20"></div>
           <div class="relative z-10">
@@ -137,6 +137,36 @@ const router = useRouter()
           </div>
         </div>
 
+        <div id="business-development" class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-uganda-black relative overflow-hidden group">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-gray-100 rounded-bl-full -mr-16 -mt-16 transition-all duration-300 group-hover:bg-gray/20"></div>
+          <div class="relative z-10">
+            <div class="bg-gray-100 text-gray-800 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+              <i class="fa-solid fa-chart-line text-3xl"></i>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Business Development</h3>
+            <p class="text-gray-600 mb-6">
+              Connect with service providers who can help your business grow through consulting, training, and other support services.
+            </p>
+            <ul class="space-y-2 mb-8">
+              <li class="flex items-center">
+                <i class="fa-solid fa-check text-gray-800 mr-2"></i>
+                <span>Business consultants</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-check text-gray-800  mr-2"></i>
+                <span>Training programs</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fa-solid fa-check text-gray-800  mr-2"></i>
+                <span>Financial advisors</span>
+              </li>
+            </ul>
+            <span class="inline-block bg-gray-800 hover:bg-grau-700 text-white px-6 py-3 rounded-md transition duration-300 cursor-pointer">
+                            Find Service Providers
+                            <i class="fa-solid fa-arrow-right ml-2"></i>
+                        </span>
+          </div>
+        </div>
         <div id="business-development" class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-uganda-black relative overflow-hidden group">
           <div class="absolute top-0 right-0 w-32 h-32 bg-gray-100 rounded-bl-full -mr-16 -mt-16 transition-all duration-300 group-hover:bg-gray/20"></div>
           <div class="relative z-10">
